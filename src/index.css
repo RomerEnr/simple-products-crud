@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    p,h1,h2,h3,a{
+        @apply text-white;
+    }
+}
+
+.card{
+  @apply  flex flex-row justify-between items-center relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7
+}
+
+.strong{
+    @apply text-xl;
+}
